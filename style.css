@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#container{
+min-width: 700px;
+background: silver;
+width: 800px;
+margin: 0 auto;
+box-shadow: 2px 2px 2px 2px grey;
+
+}
+
+.up, .down,.del{
+    width:100px;
+    height: 100%;
+    position:absolute;
+    font-size: 18px;  
+}
+.up:hover, .down:hover,.del:hover {
+    background: green;
+    color: white;
+}
+.del{ 
+    right:0.5%;
+    background: rgb(230,160,60);
+    box-shadow: 1px 1px 1px 1px grey;
+  
+    border-radius: 5px; 
+    font-size: 18px;  
+}
+.up{ 
+    right: 30%;   
+    background: rgb(60, 128, 230);
+    box-shadow: 1px 1px 1px 1px grey;
+    
+}
+
+.down{ 
+    right: 17%;   
+    background: rgb(150, 119, 75);
+    box-shadow: 1px 1px 1px 1px grey;
+    
+}
+
+
+li{
+    color: blue;
+    font-size: 2em;
+    position: relative;
+    margin: 20px;
+    list-style: none;
+    background: white;
+    height:60px;
+}
+input[type="text"]{
+    height: 30px;
+}
+h3{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+#addTxt{
+  margin: 20px;
+  height: 50px;
+  font-size: 2em;
+  color: red;
+}
+#add{
+    height: 70px;
+    width: 100px;
+    background: rgb(10, 62, 204);
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.err{
+    color: red;
+}
